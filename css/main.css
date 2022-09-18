@@ -1,4 +1,13 @@
 hr {
   color: red;
   background-color: red;
+}
+
+img {
+  overflow: hidden;
+  text-align: center;
+}
+
+.contacts__block {
+  display: flex;
 }/*# sourceMappingURL=main.css.map */
