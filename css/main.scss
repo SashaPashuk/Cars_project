@@ -9,6 +9,23 @@ img{
 .contacts__block{
     display: flex;
 }
-body{
-    background-color: black;
+.brands__icon{
+    text-align: center;
+}
+.brands__icons:hover{
+    cursor: pointer;
+    border: 2px solid red;
+   
+}
+.brands__icons__img{
+    width: 80px;
+    height: 80px;
+}
+.instagram__img{
+    width: 150px;
+    height: 170px;
+}
+.instagram__img:hover{
+    cursor: pointer;
+    border: 2px solid red;
 }
