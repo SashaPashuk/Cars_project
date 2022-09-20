@@ -102,27 +102,27 @@
         </nav>
       </header>
       <section>
-        <form class="row g-3 mx-5 px-5">
+        <form class="row g-3 mx-5 px-5" method="post" action="send.php">
             <div class="col-md-6">
               <label for="inputEmail4" class="form-label">Your name</label>
-              <input type="text" class="form-control" id="inputEmail4">
+              <input type="text" class="form-control" id="inputEmail4" name="your_name">
             </div>
             <div class="col-md-6">
               <label for="inputPassword4" class="form-label">Last name</label>
-              <input type="text" class="form-control" id="inputPassword4">
+              <input type="text" class="form-control" id="inputPassword4" name="last_name">
             </div>
             <div class="col-12">
               <label for="inputAddress" class="form-label">Address line 1</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" name="addres_line1">
             </div>
             <div class="col-12">
               <label for="inputAddress2" class="form-label">Address line 2</label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" name="addres_line2">
             </div>
             <div class="col-md-6">
               <div class="col-12">
                 <label for="inputState" class="form-label">City</label>
-                <select class="form-select" id="inlineFormSelectPref">
+                <select class="form-select" id="inlineFormSelectPref" name="city">
                   <option selected>Paris</option>
                   <option value="1">New York</option>
                   <option value="2">Dubai</option>
@@ -133,41 +133,41 @@
             <div class="col-md-4">
                      
                 <label for="inputAddress" class="form-label">Phone</label>
-                <input type="phone" class="form-control" id="inputAddress" placeholder="+909871651525">
+                <input type="phone" class="form-control" id="inputAddress" placeholder="+909871651525" name="phone">
               
             </div>
             <div class="col-md-2">
               <label for="inputZip" class="form-label">Zip</label>
-              <input type="phone" class="form-control" id="inputZip">
+              <input type="phone" class="form-control" id="inputZip" name="zip">
             </div>
            
             <h2>Payment Detalies</h2> 
             <div class="col-md-4">
                    
               <label for="inputAddress" class="form-label">Cardchoised Name</label>
-              <input type="phone" class="form-control" id="inputAddress">
+              <input type="phone" class="form-control" id="inputAddress" name="cardchoised_name">
             
           </div>
           <div class="col-md-4">
                    
               <label for="inputAddress" class="form-label">Card Number</label>
-              <input type="phone" class="form-control" id="inputAddress" >
+              <input type="phone" class="form-control" id="inputAddress" name="card_number">
             
           </div>
           <div class="col-md-4">
                    
             <label for="inputAddress" class="form-label">Expiration</label>
-            <input type="phone" class="form-control" id="inputAddress">
+            <input type="phone" class="form-control" id="inputAddress" name="expiration">
           
         </div>
           <div class="col-md-2">
             <label for="inputZip" class="form-label">CVV</label>
-            <input type="password" class="form-control" id="inputZip">
+            <input type="password" class="form-control" id="inputZip" name="cvv">
           </div>
       
             <div class="col-12">
                 <div class="d-grid gap-2">
-                    <button type="button" class="btn btn-outline-danger">BOOK A CAR</button>
+                    <button type="submit" class="btn btn-outline-danger">BOOK A CAR</button>
                   </div>
             </div>
           </form>
