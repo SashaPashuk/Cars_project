@@ -15,7 +15,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar sticky-top navbar-expand-lg bg-dark bg-gradient">
+      <nav class="navbar sticky-top navbar-expand-lg ">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="./img/Logo.webp" style="height: 80px" />
@@ -35,7 +35,7 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link text-light dropdown-toggle fs-5"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -43,51 +43,55 @@
                 >
                   Cars
                 </a>
-                <ul class="dropdown-menu bg-dark bg-gradient">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item text-light fs-4" href="sportcar.html">Sports Cars</a></li>
+                  <li><a class="dropdown-item text-light fs-4" href="Sedans.html">Sedans</a></li>
+                  <li><a class="dropdown-item text-light fs-4" href="Convertibles.html">Convertibles</a></li>
 
                   <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item text-light fs-4" href="SuvX4.html">SUVs 4x4</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-light fs-4" href="Coupes.html">Coupes</a>
                   </li>
                 </ul>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Club</a>
+                <a class="nav-link text-light fs-5" href="#">Club</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-light fs-5" href="#">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link text-light fs-5" href="#">Rent terms</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Rent terms</a>
+                <a class="nav-link text-light fs-5" href="#">FAQ</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">FAQ</a>
+                <a class="nav-link text-light fs-5" href="#">About us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contacts</a>
+                <a class="nav-link text-light fs-5" href="#">Contacts</a>
               </li>
             </ul>
 
             <span class="navbar-text">
               <div class="header__navbar container-fluid">
-                <span>+909574939838</span>
+                <a href="#" class="text-decoration-none"><p class="fs-3">+909574939838</p></a>
                 <div class="header__navbar__icons d-flex">
-                  <div class="header__navbar__icons__small">
-                    <img style="height: 20px" src="./img/telegram.svg" />
+                  <div class="header__navbar__icons__small px-2">
+                    <img style="height: 30px"  src="./img/telegram.svg" />
                   </div>
-                  <div class="header__navbar__icons__small">
-                    <img style="height: 20px" src="./img/vaiber.svg" />
+                  <div class="header__navbar__icons__small px-2">
+                    <img style="height: 30px" src="./img/vaiber.svg" />
                   </div>
-                  <div class="header__navbar__icons__small">
-                    <img style="height: 20px" src="./img/facebook.svg" />
+                  <div class="header__navbar__icons__small px-2">
+                    <img style="height: 30px" src="./img/facebook.svg" />
                   </div>
-                  <div class="header__navbar__icons__small">
-                    <img style="height: 20px" src="./img/instagram.svg" />
+                  <div class="header__navbar__icons__small px-2">
+                    <img style="height: 30px" src="./img/instagram.svg" />
                   </div>
                 </div>
               </div>
@@ -97,19 +101,24 @@
       </nav>
     </header>
     <section class="main__information">
-      <div class="card mb-3 border-0" style="max-width: 1350px">
-        <div class="row g-0">
+      <div class="card bg-transparent mb-3 border-0" style="max-width: 1250px">
+        <div class="row g-0 justify-content-center">
           <div class="col-md-4">
             <div class="card-body">
-              <h5 class="card-title">
+              <h5 class="card-title fs-1 fw-bold text-light">
                 Daily rent luxury, sports, business cars for work and leisure in
                 Dubai
               </h5>
-              <p class="card-text">
+              <p class="card-text fs-5 fw-semibold text-light">
                 We meet from the airport when booking any car for 3 days or
                 more!
               </p>
-              <button type="button" class="btn btn-danger">CHOOSE A CAR</button>
+              <a class="text-decoration-none" href="modal.html">
+                <div class="d-grid gap-2">
+                  <button type="button" class="btn btn-outline-danger">BOOK A CAR</button>
+                </div>
+                </a>
+              
             </div>
           </div>
           <div class="col-md-5">
@@ -180,24 +189,24 @@
       <div class="container px-4 text-center">
         <div class="row gx-5">
           <div class="col">
-            <div class="p-3 bg-light">
-              <p>77</p>
-              <hr />
-              <p>first-class cars in our park</p>
+            <div class="p-3 bg-transparent">
+              <p class="text-light fs-4">77</p>
+              <hr style="border-color: red; border-width: 3px;">
+              <p class="text-light fs-4">first-class cars in our park</p>
             </div>
           </div>
           <div class="col">
-            <div class="p-3 bg-light">
-              <p>6 years</p>
-              <hr />
-              <p>Dubai rental market</p>
+            <div class="p-3 bg-transparent">
+              <p class="text-light fs-4">6 years</p>
+              <hr style="border-color: red; border-width: 3px;">
+              <p class="text-light fs-4">Dubai rental market</p>
             </div>
           </div>
           <div class="col">
-            <div class="p-3 bg-light">
-              <p>$10M</p>
-              <hr />
-              <p>the total cost of our parkk</p>
+            <div class="p-3 bg-transparent">
+              <p class="text-light fs-4" >$10M</p>
+              <hr style="border-color: red; border-width: 3px;">
+              <p class="text-light fs-4">the total cost of our parkk</p>
             </div>
           </div>
         </div>
@@ -207,41 +216,41 @@
       <div class="container overflow-hidden text-center">
         <div class="row gx-5">
           <div class="col">
-            <div class="p-3 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 bg-transparent">
+              <div class="card bg-transparent border-0" style="width: 18rem">
                 <img src="./img/Ferrari_F8_Spider_20.webp" />
                 <div class="card-body">
-                  <h5 class="card-title">Ferrari F8 Spider</h5>
-                  <p class="card-text">
+                  <h5 class="card-title text-light fw-bold fs-3 fst-italic">Ferrari F8 Spider</h5>
+                  <p class="card-text text-light">
                     Power: 720 HP 0–100 km/h: 2.9 seconds Max. speed: 340 km/h
                   </p>
-                  <p>4490 AED</p>
-                  <p>$1 230</p>
+                  <p class="text-light">4490 AED</p>
+                  <p class="text-light">$1 230</p>
 
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="p-3 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 bg-transparent">
+              <div class="card border-0 bg-transparent" style="width: 18rem">
                 <img src="./img/Lamborghini Aventador S Roadster.webp" />
                 <div class="card-body">
-                  <h5 class="card-title">Lamborghini Aventador S Roadster</h5>
-                  <p class="card-text">
+                  <h5 class="card-title text-light fw-bold fs-5 fst-italic">Lamborghini S Roadster</h5>
+                  <p class="card-text text-light">
                     Power: 700 HP 0–100 km/h: 3 seconds Max. speed: 320 km/h
                   </p>
-                  <p>6195 AED</p>
-                  <p>$1 690</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <p class="text-light">6195 AED</p>
+                  <p class="text-light">$1 690</p>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card bg-transparent border-0" style="width: 18rem">
                 <img src="./img/Ferrari_Portofino_20.jpg" />
                 <div class="card-body">
                   <h5 class="card-title">Ferrari Portofino</h5>
@@ -250,7 +259,7 @@
                   </p>
                   <p>3270 AED</p>
                   <p>$890</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
@@ -260,8 +269,8 @@
       <div class="container overflow-hidden text-center">
         <div class="row gx-5">
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card bg-transparent border-0" style="width: 18rem">
                 <img src="./img/Rolls-Royce_Cullinan.webp" />
                 <div class="card-body">
                   <h5 class="card-title">Rolls-Royce Cullinan Black Badge</h5>
@@ -270,14 +279,14 @@
                   </p>
                   <p>6020 AED</p>
                   <p>$1 640</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card bg-transparent border-0" style="width: 18rem">
                 <img src="./img/Rolls-Royce_Dawn_Bla.jpg" alt="" />
                 <div class="card-body">
                   <h5 class="card-title">Rolls-Royce Dawn Black Badge</h5>
@@ -286,14 +295,14 @@
                   </p>
                   <p>4510 AED</p>
                   <p>$1 230</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card bg-transparent border-0" style="width: 18rem">
                 <img src="./img/Rolls-Royce_Wraith_B.webp" />
                 <div class="card-body">
                   <h5 class="card-title">Rolls-Royce Wraith Black Badge</h5>
@@ -302,7 +311,7 @@
                   </p>
                   <p>3615 AED</p>
                   <p>$990</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
@@ -312,8 +321,8 @@
       <div class="container overflow-hidden text-center">
         <div class="row gx-5">
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card bg-transparent border-0" style="width: 18rem">
                 <img src="./img/Lamborghini_Huracan_.jpg" />
                 <div class="card-body">
                   <h5 class="card-title">Lamborghini Huracan Evo Spyder</h5>
@@ -322,14 +331,14 @@
                   </p>
                   <p>4000 AED</p>
                   <p>$1 090</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card bg-transparent border-0" style="width: 18rem">
                 <img src="./img/McLaren_720S_2020_4.jpg" />
                 <div class="card-body">
                   <h5 class="card-title">McLaren 720S</h5>
@@ -338,14 +347,14 @@
                   </p>
                   <p>4040 AED</p>
                   <p>$1 100</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card bg-transparent border-0" style="width: 18rem">
                 <img src="./img/Audi_E-TRON_GT_RS_20.jpg" />
                 <div class="card-body">
                   <h5 class="card-title">Audi E-TRON GT RS</h5>
@@ -354,7 +363,7 @@
                   </p>
                   <p>2160 AED</p>
                   <p>$590</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
@@ -362,14 +371,14 @@
         </div>
       </div>
     </main>
-    <section class="rent"></section>
+   
     <section class="sports">
-      <h2>Sports Cars</h2>
+      <h2 class="text-light text-center fs-1" >Sports Cars</h2>
       <div class="container overflow-hidden text-center">
         <div class="row gx-5">
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparentt">
+              <div class="card bg-transparent border-0" style="width: 18rem">
                 <img src="./img/Ferrari_488_Spider__.webp">
 
                 <div class="card-body">
@@ -381,14 +390,14 @@ Max. speed: 325 km/h
                   </p>
                   <p>3010 AED</p>
                   <p>$820</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card bg-transparent border-0" style="width: 18rem">
                 <img src="./img/Lamborghini_Huracan_Evo_Spayder.jpg">
 
                 <div class="card-body">
@@ -400,14 +409,14 @@ Max. speed: 325 km/h
                   </p>
                   <p>4000 AED</p>
                   <p>$1 090</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card bg-transparent border-0" style="width: 18rem">
                 <img src="./img/Lamborghini_Huracan_ Evo.jpg">
 
                 <div class="card-body">
@@ -419,7 +428,7 @@ Max. speed: 325 km/h
                   </p>
                   <p>3270 AED</p>
                   <p>$890</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
@@ -429,8 +438,8 @@ Max. speed: 325 km/h
       <div class="container overflow-hidden text-center">
         <div class="row gx-5">
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card bg-transparent border-0" style="width: 18rem">
                 <img src="./img/Ferrari_Portofino_3.jpg" alt="">
 
                 <div class="card-body">
@@ -442,14 +451,14 @@ Max. speed: 320 km/h
                   </p>
                   <p>3270 AED</p>
                   <p>$890</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card bg-transparent border-0" style="width: 18rem">
                 <img src="./img/Maclaren_570S_Spider.jpg" alt="">
 
                 <div class="card-body">
@@ -461,14 +470,14 @@ Max. speed: 320 km/h
                   </p>
                   <p>2810 AED</p>
                   <p>$765</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card bg-transparent border-0" style="width: 18rem">
                <img src="./img/BMW_M4_Competition_1.webp">
 
                 <div class="card-body">
@@ -480,7 +489,7 @@ Max. speed: 250 km/h
                   </p>
                   <p>2020 AED</p>
                   <p>$550</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
@@ -488,13 +497,61 @@ Max. speed: 250 km/h
         </div>
       </div>
     </section>
+    <section class="rent">
+      <h2 class="text-light text-center fs-1">Download the complete catalog of 77 luxury cars for rent in Dubai</h2>
+      <div class="card bg-transparent justify-content-center mb-3" style="max-width: 1300px">
+        <div class="row justify-content-center  g-0 ">
+          <div class="col-md-7">
+            <img style="width: 100%; height: 100%; " src="./img/Catalog_Staples.webp">
+          </div>
+          <div class="col-md-4">
+            <div class="card-body">
+              <legend>Fill out the form and get a catalog</legend>
+              <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label "
+                  >Your name</label
+                >
+                <input
+                  type="text"
+                  class="form-control bg-transparent"
+                  id="formGroupExampleInput"
+                  placeholder="Your name"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">
+                  Write down your phone number</label
+                >
+                <input
+                  type="text"
+                  class="form-control bg-transparent"
+                  id="formGroupExampleInput2"
+                  placeholder="+909574939878"
+                />
+              </div>
+              
+                <a class="text-decoration-none" href="modal.html">
+                  <div class="d-grid gap-2">
+                    <button type="button" class="btn btn-lg btn-outline-danger">Danger</button>
+                  </div>
+                  
+                  
+                
+                </a>
+                  
+               
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="sedans">
-      <h2>Sedans</h2>
+      <h2 class="text-light text-center fs-1">Sedans</h2>
       <div class="container overflow-hidden text-center">
         <div class="row gx-5">
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card border-0 bg-transparent" style="width: 18rem">
                 <img src="./img/Mercedes-Benz_s500_2.jpg">
                 </svg>
 
@@ -508,14 +565,14 @@ Max. speed: 250 km/h
                     <p>2170 AED</p>
                     <p>$590</p>
                   </p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card border-0 bg-transparent" style="width: 18rem">
               <img src="./img/Porsche_Panamera_202.jpg">
 
                 <div class="card-body">
@@ -529,14 +586,14 @@ Max. speed: 250 km/h
                   </p>
                   <p> 1645 AED</p>
                     <p>$450</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                    <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card border-0 bg-transparent" style="width: 18rem">
                 <img src="./img/Audi_8_2022_7.webp">
                 </svg>
 
@@ -552,8 +609,7 @@ Max. speed: 250 km/h
                   </p>
                   <p>1430 AED</p>
                   <p>$390</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
-                </div>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
               </div>
             </div>
           </div>
@@ -562,8 +618,8 @@ Max. speed: 250 km/h
       <div class="container overflow-hidden text-center">
         <div class="row gx-5">
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card border-0 bg-transparent" style="width: 18rem">
                 <img src="./img/biturbo_v8-68_1.jpg">
 
                 <div class="card-body">
@@ -578,14 +634,14 @@ Max. speed: 304 km/h
                   </p>
                   <p>2155 AED</p>
                   <p>$590</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card border-0 bg-transparent" style="width: 18rem">
                 <img src="./img/Mercedes-Benz_C300_1.jpg">
 
                 <div class="card-body">
@@ -601,14 +657,14 @@ Max. speed: 250 km/h
                   <p>490 AED</p>
                   <p>$135</p>
 
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card border-0 bg-transparent" style="width: 18rem">
                 <img src="./img/Audi_A6_2022_5.jpg">
 
                 <div class="card-body">
@@ -624,7 +680,7 @@ Max. speed: 250 km/h
                   <p>810 AED</p>
                   <p>$220</p>
 
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
@@ -633,12 +689,12 @@ Max. speed: 250 km/h
       </div>
     </section>
     <section class="convertibles">
-      <h2>Convertibles</h2>
+      <h2 class="text-light text-center fs-1">Convertibles</h2>
       <div class="container overflow-hidden text-center">
         <div class="row gx-5">
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card border-0 bg-transparent" style="width: 18rem">
                 <img src="./img/Rolls-Royce_Dawn_Bla (1).jpg" alt="">
 
                 <div class="card-body">
@@ -653,14 +709,14 @@ Max. speed: 250 km/h
                   </p>
                   <p>4370 AED</p>
                   <p>$1 190</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card border-0 bg-transparent" style="width: 18rem">
                 <img src="./img/Porsche_911_Cabrio.webp">
 
                 <div class="card-body">
@@ -675,14 +731,14 @@ Max. speed: 300 km/h
                   </p>
                   <p>1800 AED</p>
                   <p>$490</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card border-0 bg-transparent" style="width: 18rem">
                 <img src="./img/RR_Dawn_06.jpg">
 
                 <div class="card-body">
@@ -697,7 +753,7 @@ Max. speed: 250 km/h
                   </p>
                   <p>3250 AED</p>
                   <p>$890</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
@@ -707,8 +763,8 @@ Max. speed: 250 km/h
       <div class="container overflow-hidden text-center">
         <div class="row gx-5">
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card border-0 bg-transparent" style="width: 18rem">
                 <img src="./img/BMW_Z4_2021_1.jpg" alt="">
 
                 <div class="card-body">
@@ -720,14 +776,14 @@ Max. speed: 250 km/h
                   </p>
                   <p>1060AED</p>
                   <p>$290</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card border-0 bg-transparent" style="width: 18rem">
                 <img src="./img/Mercedes-Benz_C200_2.webp">
 
                 <div class="card-body">
@@ -742,14 +798,14 @@ Max. speed: 241 km/h
                   </p>
                   <p>920 AED</p>
                   <p>$250</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card border-0 bg-transparent" style="width: 18rem">
                 <img src="./img/Lamborghini_Huracan_Evo (1).jpg">
 
                 <div class="card-body">
@@ -764,7 +820,7 @@ Max. speed: 324 km/h
                   </p>
                   <p>4370 AED</p>
                   <p>$1 190</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
@@ -773,12 +829,12 @@ Max. speed: 324 km/h
       </div>
     </section>
     <section class="suvs">
-      <h2>SUVs 4x4</h2>
+      <h2 class="text-light text-center fs-1">SUVs 4x4</h2>
       <div class="container overflow-hidden text-center">
         <div class="row gx-5">
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card border-0 bg-transparent" style="width: 18rem">
                 <img src="./img/Cadillac_Escalade_20.webp">
 
                 <div class="card-body">
@@ -793,14 +849,14 @@ Max. speed: 324 km/h
                   </p>
                   <p>1800 AED</p>
                   <p>$490</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card border-0 bg-transparent" style="width: 18rem">
                 <img src="./img/BMW_X7_2022_3.webp">
 
                 <div class="card-body">
@@ -815,14 +871,14 @@ Max. speed: 250 km/h
                   </p>
                   <p>1800 AED</p>
                   <p>$490</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card border-0 bg-transparent" style="width: 18rem">
                 <img src="./img/BMW_X6M_blue_5.jpg">
 
                 <div class="card-body">
@@ -837,7 +893,7 @@ Max. speed: 250 km/h
                   </p>
                   <p>1650 AED</p>
                   <p>$450</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
@@ -847,8 +903,8 @@ Max. speed: 250 km/h
       <div class="container overflow-hidden text-center">
         <div class="row gx-5">
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card border-0 bg-transparent" style="width: 18rem">
                 <img src="./img/Porsche_Cayenne_GTS_.jpg">
 
                 <div class="card-body">
@@ -863,14 +919,14 @@ Max. speed: 270 km/h
                   </p>
                   <p>1800 AED</p>
                   <p>$490</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card border-0 bg-transparent" style="width: 18rem">
                 <img src="./img/Lamborghini_Urus_4.jpg">
                 <div class="card-body">
                   <h5 class="card-title">Lamborghini Urus</h5>
@@ -884,14 +940,14 @@ Max. speed: 305 km/h
                   </p>
                   <p>3630 AED</p>
                   <p>$990</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="p-3 border-0 ">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card border-0 bg-transparent" style="width: 18rem">
                 <img src="./img/BMW_X6_06.jpg">
 
                 <div class="card-body">
@@ -906,7 +962,7 @@ Max. speed: 290 km/h
                   </p>
                   <p>2170 AED</p>
                   <p>$590</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
@@ -915,12 +971,12 @@ Max. speed: 290 km/h
       </div>
     </section>
     <section class="coupes">
-      <h2>Coupes</h2>
+      <h2 class="text-light text-center fs-1" >Coupes</h2>
       <div class="container overflow-hidden text-center">
         <div class="row gx-5">
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card border-0 bg-transparent" style="width: 18rem">
                 <img src="./img/Porsche_Cayman_GTS_3.jpg">
 
                 <div class="card-body">
@@ -932,14 +988,14 @@ Max. speed: 320 km/h
                   </p>
                   <p>1210 AED</p>
                   <p>$330</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card border-0 bg-transparent" style="width: 18rem">
                <img src="./img/Porsche_911_4S_2022_.jpg" alt="">
                 <div class="card-body">
                   <h5 class="card-title">Porsche 911 4S</h5>
@@ -953,14 +1009,14 @@ $590
                   </p>
                   <p>2170 AED</p>
                   <p>$590</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card border-0 bg-transparent" style="width: 18rem">
                 <img src="./img/Bentley_2021_2.webp">
 
                 <div class="card-body">
@@ -975,7 +1031,7 @@ $790
                   </p>
                   <p>2890 AED</p>
                   <p>$790</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
@@ -985,8 +1041,8 @@ $790
       <div class="container overflow-hidden text-center">
         <div class="row gx-5">
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card border-0 bg-transparent" style="width: 18rem">
                 <img src="./img/Porsche_Cayenne_03.jpg">
 
                 <div class="card-body">
@@ -998,14 +1054,14 @@ Max. speed: 240 km/h
                   </p>
                   <p>1425 AED</p>
                   <p>$390</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card border-0 bg-transparent" style="width: 18rem">
                 <img src="./img/Dodge_hallenger_Hell.webp">
 
                 <div class="card-body">
@@ -1020,14 +1076,14 @@ Max. speed: 340 km/h
                   </p>
                   <p>1500 AED</p>
                   <p>$410</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="p-3 border-0 bg-light">
-              <div class="card border-0" style="width: 18rem">
+            <div class="p-3 border-0 bg-transparent">
+              <div class="card border-0 bg-transparent" style="width: 18rem">
                 <img src="./img/Ford_Mustang_Shelby_.jpg">
 
                 <div class="card-body">
@@ -1042,7 +1098,7 @@ Max. speed: 265 km/h
                   </p>
                   <p>695 AED</p>
                   <p>$190</p>
-                  <a href="#" class="btn btn-outline-danger">BOOK A CAR</a>
+                  <a href="modal.html" class="btn btn-outline-danger text-decoration-none">BOOK A CAR</a>
                 </div>
               </div>
             </div>
@@ -1051,7 +1107,7 @@ Max. speed: 265 km/h
       </div>
     </section>
     <section class="brands">
-      <h2>Brands</h2>
+      <h2 class="text-light text-center fs-1" >Brands</h2>
       <div class="container text-center">
         <div class="row row-cols-3 row-cols-lg-6 g-2 g-lg-3">
           <div class="col brands__icons">
@@ -1060,50 +1116,50 @@ Max. speed: 265 km/h
                          
             </div>
           </div>
-          <div class="col">
-            <div class="p-3 border">
+          <div class="col brands__icons">
+            <div class="p-3 border-0">
               
               <img class="brands__icons__img" src="./img/Brand_Bentley_logo.svg"></div>
           </div>
-          <div class="col">
-            <div class="p-3 border"><img class="brands__icons__img" src="./img/Brand_BMW_logo.svg"></div>
+          <div class="col brands__icons">
+            <div class="p-3 border-0"><img class="brands__icons__img" src="./img/Brand_BMW_logo.svg"></div>
           </div>
-          <div class="col">
-            <div class="p-3 border"><img class="brands__icons__img" src="./img/Brand_Cadillac_logo.svg"></div>
+          <div class="col brands__icons">
+            <div class="p-3 border-0"><img class="brands__icons__img" src="./img/Brand_Cadillac_logo.svg"></div>
           </div>
-          <div class="col">
-            <div class="p-3 border"><img class="brands__icons__img" src="./img/Brand_Ferrari_logo.svg"></div>
+          <div class="col brands__icons">
+            <div class="p-3 border-0"><img class="brands__icons__img" src="./img/Brand_Ferrari_logo.svg"></div>
           </div>
-          <div class="col">
-            <div class="p-3 border"><img class="brands__icons__img" src="./img/Brand_Porsche_logo.svg"></div>
+          <div class="col brands__icons">
+            <div class="p-3 border-0"><img class="brands__icons__img" src="./img/Brand_Porsche_logo.svg"></div>
           </div>
-          <div class="col">
-            <div class="p-3 border"><img class="brands__icons__img" src="./img/Lamborghini_log.svg"></div>
+          <div class="col brands__icons">
+            <div class="p-3 border-0"><img class="brands__icons__img" src="./img/Lamborghini_log.svg"></div>
           </div>
-          <div class="col">
-            <div class="p-3 border"><img class="brands__icons__img" src="./img/Ford_logo.svg" alt=""></div>
+          <div class="col brands__icons">
+            <div class="p-3 border-0"><img class="brands__icons__img" src="./img/Ford_logo.svg" alt=""></div>
           </div>
-          <div class="col">
-            <div class="p-3 border"><img class="brands__icons__img" src="./img/Brand_Mercedes_logo.svg"></div>
+          <div class="col brands__icons">
+            <div class="p-3 border-0"><img class="brands__icons__img" src="./img/Brand_Mercedes_logo.svg"></div>
           </div>
-          <div class="col">
-            <div class="p-3 border"><img class="brands__icons__img" src="./img/Brand_Rolls-Royce_log.svg"></div>
+          <div class="col brands__icons">
+            <div class="p-3 border-0"><img class="brands__icons__img" src="./img/Brand_Rolls-Royce_log.svg"></div>
           </div>
-          <div class="col">
-            <div class="p-3 border"><img class="brands__icons__img" src="./img/Brand_Dodge_logo.svg"></div>
+          <div class="col brands__icons">
+            <div class="p-3 border-0"><img class="brands__icons__img" src="./img/Brand_Dodge_logo.svg"></div>
           </div>
-          <div class="col">
-            <div class="p-3 border"><img class="brands__icons__img" src="./img/Brand_Maserati_logo.svg"></div>
+          <div class="col brands__icons">
+            <div class="p-3 border-0"><img class="brands__icons__img" src="./img/Brand_Maserati_logo.svg"></div>
           </div>
         </div>
       </div>
     </section>
     <section class="instagram">
-      <h2>Instagram</h2>
+      <h2 class="text-light text-center fs-1">Instagram</h2>
       <div class="container text-center">
         <div class="row row-cols-2 row-cols-lg-4 g-1 g-lg-3">
-          <div class="col">
-            <div class=" border-0"><img class="instagram__img" src="./img/Section_instagram_1.jpg"></div>
+          <div class="col ">
+            <div class=" border-0  "><img class="instagram__img" src="./img/Section_instagram_1.jpg"></div>
           </div>
           <div class="col">
             <div class=" border-0 "><img class="instagram__img" src="./img/Section_instagram_2.jpg"></div>
@@ -1129,36 +1185,169 @@ Max. speed: 265 km/h
         </div>
       </div>
     </section>
-    <section class="contacts">
-      <h2>Contacts</h2>
-      <div class="contacts__block">
-        <div class="contacts__block__map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231489.3339128184!2d54.76567254775374!3d24.965405505271466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f1212335809a9%3A0xa14e0c8de1c5300a!2z0JTQttC10LHQtdC70Ywt0JDQu9C4IC0g0JTRg9Cx0LDQuSAtINCe0LHRitC10LTQuNC90LXQvdC90YvQtSDQkNGA0LDQsdGB0LrQuNC1INCt0LzQuNGA0LDRgtGL!5e0!3m2!1sru!2sua!4v1663527105497!5m2!1sru!2sua"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+    <section class="contacts ">
+      <h2 class="text-center fs-1" >Contacts</h2>
+      <div class="container overflow-hidden text-center">
+        <div class="row gx-5">
+          <div class="col bg-transparent">
+           <div class="p-3 border-0">
+           <iframe
+             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231489.3339128184!2d54.76567254775374!3d24.965405505271466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f1212335809a9%3A0xa14e0c8de1c5300a!2z0JTQttC10LHQtdC70Ywt0JDQu9C4IC0g0JTRg9Cx0LDQuSAtINCe0LHRitC10LTQuNC90LXQvdC90YvQtSDQkNGA0LDQsdGB0LrQuNC1INCt0LzQuNGA0LDRgtGL!5e0!3m2!1sru!2sua!4v1663527105497!5m2!1sru!2sua"
+             width="350"
+             height="400"
+             style="border: 0"
+             allowfullscreen=""
+             loading="lazy"
+             referrerpolicy="no-referrer-when-downgrade"
+           ></iframe>
+         </div>
+          </div>
+          <div class="col bg-transparent">
+            <div class="p-3 border-0">
+            <h3>Contact us:</h3>
+            <p>E-mail:</p>
+            <p>info@kingsrentcars.com</p>
+            <p>Phone/Skype</p>
+            <p>+971 55 159 4820</p>
+            <p>around the clock</p>
+            <p>Compsny:</p>
+            <p>KINGS AUTO RENT A CAR L.L.C.</p>
+            <p>Registration number. 1271874</p>
+            <p>Rixos Premium JBR,Дубай,ОАЄ</p>
+          </div>
+          </div>
         </div>
-        <div class="contacts__block__tex">
-          <h3>Contact us:</h3>
-          <p>E-mail:</p>
-          <p>info@kingsrentcars.com</p>
-          <p>Phone/Skype</p>
-          <p>+971 55 159 4820</p>
-          <p>around the clock</p>
-          <p>Compsny:</p>
-          <p>KINGS AUTO RENT A CAR L.L.C.</p>
-          <p>Registration number. 1271874</p>
-          <p>Rixos Premium JBR,Дубай,ОАЄ</p>
-        </div>
+      </div>
       </div>
     </section>
 
-    <footer></footer>
+    <footer>
+      <div class="container text-center">
+        <div class="row row-cols-1 row-cols-lg-5 g-2 g-lg-3">
+          <div class="col">
+            <div class="p-3 border-0 ">
+              <img  src="./img/Logo.webp">
+              <div class="d-flex mt-5 justify-content-center">
+                <img class="px-1" style="width: 50px;" src="./img/telegram.svg" alt="dfd">
+                <img class="px-1" style="width: 50px;" src="./img/vaiber.svg" alt="dfd">
+                <img class="px-1" style="width: 50px;" src="./img/facebook.svg" alt="dfd">
+                <img class="px-1" style="width: 50px;" src="./img/instagram.svg" alt="dfd">
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border-0 ">
+            <h5>ABOUT US</h5>
+            <p>Contacts<p>
+            <p>Blog<p>
+            <p>Rent terms<p>
+            <p>FAQ<p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border-0 t">
+            <h5>ADDITIONAL SERVICES</h5>
+            <p>Partner program<p>
+              <p>Gift certificates for carrental<p>
+                <p>Private club<p>
+            <p>Business Setup & Company Formation agency in DubaiPrivate club<p>
+            
+            
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border-0">
+            <table class="table">
+            <thead>
+              <tr>
+                
+                <th class="border-0" scope="col" colspan="2">CAR CATALOG</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr >
+               
+                <td  class="border-0">Sportcars</td>
+                <td  class="border-0">Coupes</td>
+                
+              </tr>
+              <tr>
+                
+                <td  class="border-0">SUVs</td>
+                <td  class="border-0">Sedans</td>
+                
+              </tr>
+              <tr>
+                
+              <td  class="border-0">Convertibles</td>
+              <td  class="border-0">Muscle car</td>
+              
+            </tr>
+              
+            </tbody>
+          </table>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border-0">
+            <table class="table">
+            <thead>
+              <tr>
+                
+                <th class="border-0" scope="col" colspan="2">BRANDS</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr >
+                
+                <td class="border-0">Range Rover</td>
+                <td class="border-0">BMW</td>
+                <td class="border-0">Audi</td>
+                
+              </tr>
+              <tr >
+                
+              <td class="border-0">Lamborghini</td>
+              <td class="border-0">Maserati</td>
+              <td class="border-0">Lexus</td>
+              
+            </tr>
+            <tr >
+                
+            <td class="border-0">Cadillac</td>
+            <td class="border-0">Mersedes</td>
+            <td class="border-0">Nissan</td>
+            
+          </tr>
+          <tr >
+                
+          <td class="border-0">Bently</td>
+          <td class="border-0">McLaren</td>
+          <td class="border-0">Tesla</td>
+          
+        </tr>
+              <tr>
+                
+                <td class="border-0">Chevrolet</td>
+                <td class="border-0">Rolls-Roys</td>
+                <td class="border-0">Ford</td>
+              </tr>
+              <tr>
+                
+                <td class="border-0">Ferrari</td>
+                <td class="border-0">Porshe</td>
+                <td class="border-0">Dodge</td>
+              </tr>
+            </tbody>
+          </table>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"

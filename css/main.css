@@ -1,6 +1,9 @@
-hr {
-  color: red;
-  background-color: red;
+body, .navbar, .dropdown-menu, .dropdown-item {
+  background-color: #152331 !important;
+}
+
+p, h5, h3, h2, legend, label, td, tr {
+  color: aliceblue;
 }
 
 img {
@@ -12,13 +15,17 @@ img {
   display: flex;
 }
 
-.brands__icon {
+.brands__icons {
   text-align: center;
+  transition: 1s;
 }
 
 .brands__icons:hover {
   cursor: pointer;
-  border: 2px solid red;
+  border: solid #e90d0d 1px;
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: 10px 5px 5px red;
 }
 
 .brands__icons__img {
@@ -29,9 +36,11 @@ img {
 .instagram__img {
   width: 150px;
   height: 170px;
+  transition: 0.8s;
 }
 
 .instagram__img:hover {
   cursor: pointer;
   border: 2px solid red;
+  box-shadow: 5px 2px 2px red;
 }/*# sourceMappingURL=main.css.map */

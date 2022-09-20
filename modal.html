@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+    <header>
+        <nav class="navbar sticky-top navbar-expand-lg ">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="./img/Logo.webp" style="height: 80px" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarText"
+              aria-controls="navbarText"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link text-light dropdown-toggle fs-5"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Cars
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-light fs-4" href="#">Sports Cars</a></li>
+                    <li><a class="dropdown-item text-light fs-4" href="#">Sedans</a></li>
+                    <li><a class="dropdown-item text-light fs-4" href="#">Convertibles</a></li>
+  
+                    <li>
+                      <a class="dropdown-item text-light fs-4" href="#">SUVs 4x4</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item text-light fs-4" href="#">Coupes</a>
+                    </li>
+                  </ul>
+                </li>
+  
+                <li class="nav-item">
+                  <a class="nav-link text-light fs-5" href="#">Club</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link text-light fs-5" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light fs-5" href="#">Rent terms</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light fs-5" href="#">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light fs-5" href="#">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light fs-5" href="#">Contacts</a>
+                </li>
+              </ul>
+  
+              <span class="navbar-text">
+                <div class="header__navbar container-fluid">
+                  <a href="#" class="text-decoration-none"><p class="fs-3">+909574939838</p></a>
+                  <div class="header__navbar__icons d-flex">
+                    <div class="header__navbar__icons__small px-2">
+                      <img style="height: 30px"  src="./img/telegram.svg" />
+                    </div>
+                    <div class="header__navbar__icons__small px-2">
+                      <img style="height: 30px" src="./img/vaiber.svg" />
+                    </div>
+                    <div class="header__navbar__icons__small px-2">
+                      <img style="height: 30px" src="./img/facebook.svg" />
+                    </div>
+                    <div class="header__navbar__icons__small px-2">
+                      <img style="height: 30px" src="./img/instagram.svg" />
+                    </div>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <section>
+        <form class="row g-3 mx-5 px-5">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Your name</label>
+              <input type="text" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Address line 1</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Address line 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="col-md-6">
+              <div class="col-12">
+                <label for="inputState" class="form-label">City</label>
+                <select class="form-select" id="inlineFormSelectPref">
+                  <option selected>Paris</option>
+                  <option value="1">New York</option>
+                  <option value="2">Dubai</option>
+                  <option value="3">London</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-4">
+                     
+                <label for="inputAddress" class="form-label">Phone</label>
+                <input type="phone" class="form-control" id="inputAddress" placeholder="+909871651525">
+              
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="phone" class="form-control" id="inputZip">
+            </div>
+           
+            <h2>Payment Detalies</h2> 
+            <div class="col-md-4">
+                   
+              <label for="inputAddress" class="form-label">Cardchoised Name</label>
+              <input type="phone" class="form-control" id="inputAddress">
+            
+          </div>
+          <div class="col-md-4">
+                   
+              <label for="inputAddress" class="form-label">Card Number</label>
+              <input type="phone" class="form-control" id="inputAddress" >
+            
+          </div>
+          <div class="col-md-4">
+                   
+            <label for="inputAddress" class="form-label">Expiration</label>
+            <input type="phone" class="form-control" id="inputAddress">
+          
+        </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">CVV</label>
+            <input type="password" class="form-control" id="inputZip">
+          </div>
+      
+            <div class="col-12">
+                <div class="d-grid gap-2">
+                    <button type="button" class="btn btn-outline-danger">BOOK A CAR</button>
+                  </div>
+            </div>
+          </form>
+      </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
